@@ -1,21 +1,21 @@
 {
-  "name": "test",
+  "name": "test-webpack-sgs",
   "version": "1.0.0",
-  "description": "Prova",
+  "description": "",
   "main": "index.html",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "webpack",
     "start:dev": "webpack-dev-server"
   },
   "devDependencies": {
     "css-loader": "^0.28.9",
+    "handlebars-loader": "^1.6.0",
+    "html-loader": "^0.5.5",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
-    "handlebars-loader": "^1.6.0",
-    "html-loader": "^0.5.5",
     "webpack": "^3.10.0"
   },
   "dependencies": {
@@ -29,5 +29,7 @@
     "script-loader": "^0.7.2",
     "webpack-dev-server": "^2.11.1",
     "yarn": "^1.3.2"
-  }
+  },
+  "repository": "https://github.com/aligo86/testWebPack.git",
+  "author": "aligo <aligo86@gmail.com>"
 }
